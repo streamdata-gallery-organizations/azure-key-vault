@@ -1,9 +1,9 @@
-title: Streamdata Gallery
-url: azure-key-vault.api.streamdata.gallery
+title: Streamdata Gallery Azure Key Vault
+url: azure-key-vault.streamdata.gallery
 tag: Azure Key Vault
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery-organizations
+github_user: streamdata-gallery
 github_repo: azure-key-vault
 github_branch: master
 collections:
