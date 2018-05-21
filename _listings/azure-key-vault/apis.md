@@ -1,5 +1,6 @@
 ---
 name: Azure Key Vault
+x-slug: azure-key-vault
 description: Azure Key Vault offers an easy, cost-effective way to safeguard keys
   and other secrets in the cloud by using hardware security modules (HSMs). Protect
   cryptographic keys and small secrets like passwords with keys stored in HSMs. For
@@ -13,32 +14,91 @@ description: Azure Key Vault offers an easy, cost-effective way to safeguard key
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-enhance-data-protection.png
 x-kinRank: "10"
 x-alexaRank: ""
-tags:
-- Stack Network
-- Security
-- Microsoft
-- Management
-- Authentication
-created: "2018-03-25"
-modified: "2018-03-25"
-url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-key-vault/master/_listings/azure-key-vault/apis.yaml
+tags: Azure Key Vault
+created: "2018-05-21"
+modified: "2018-05-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-key-vault/master/_listings/azure-key-vault/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Azure Key Vault API
-  description: Azure Key Vault offers an easy, cost-effective way to safeguard keys
-    and other secrets in the cloud by using hardware security modules (HSMs)
+- name: Azure Key Vault API Vaults Create Or Update
+  x-api-slug: azure-key-vault-api
+  description: Create or update a key vault in the specified subscription.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-enhance-data-protection.png
-  humanURL: ""
-  baseURL: ://management.azure.com//
-  tags:
-  - Stack Network
-  - Security
-  - Microsoft
-  - Management
-  - Authentication
+  humanURL: https://azure.microsoft.com/en-us/services/key-vault/
+  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.KeyVault/vaults/{vaultName}
+  tags: Vaults
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-key-vault/master/_listings/azure-key-vault/subscriptions-subscriptionid-resources-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-key-vault/master/_listings/azure-key-vault/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftkeyvaultvaultsvaultname-put-openapi.md
+- name: Azure Key Vault API Vaults Delete
+  x-api-slug: azure-key-vault-api
+  description: Deletes the specified Azure key vault.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-enhance-data-protection.png
+  humanURL: https://azure.microsoft.com/en-us/services/key-vault/
+  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.KeyVault/vaults/{vaultName}
+  tags: Vaults
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-key-vault/master/_listings/azure-key-vault/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftkeyvaultvaultsvaultname-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-key-vault/master/_listings/azure-key-vault/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftkeyvaultvaultsvaultname-delete-openapi.md
+- name: Azure Key Vault API Vaults Get
+  x-api-slug: azure-key-vault-api
+  description: Gets the specified Azure key vault.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-enhance-data-protection.png
+  humanURL: https://azure.microsoft.com/en-us/services/key-vault/
+  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.KeyVault/vaults/{vaultName}
+  tags: Vaults
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-key-vault/master/_listings/azure-key-vault/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftkeyvaultvaultsvaultname-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-key-vault/master/_listings/azure-key-vault/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftkeyvaultvaultsvaultname-get-openapi.md
+- name: Azure Key Vault API Vaults List By Resource Group
+  x-api-slug: azure-key-vault-api
+  description: The List operation gets information about the vaults associated with
+    the subscription and within the specified resource group.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-enhance-data-protection.png
+  humanURL: https://azure.microsoft.com/en-us/services/key-vault/
+  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.KeyVault/vaults
+  tags: Vaults Resource Group
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-key-vault/master/_listings/azure-key-vault/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftkeyvaultvaults-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-key-vault/master/_listings/azure-key-vault/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftkeyvaultvaults-get-openapi.md
+- name: Azure Key Vault API Vaults List
+  x-api-slug: azure-key-vault-api
+  description: The List operation gets information about the vaults associated with
+    the subscription.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-enhance-data-protection.png
+  humanURL: https://azure.microsoft.com/en-us/services/key-vault/
+  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resources
+  tags: Vaults
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-key-vault/master/_listings/azure-key-vault/subscriptionssubscriptionidresources-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-key-vault/master/_listings/azure-key-vault/subscriptionssubscriptionidresources-get-openapi.md
+- name: Azure Key Vault API
+  x-api-slug: azure-key-vault-api
+  description: Azure Key Vault offers an easy, cost-effective way to safeguard keys
+    and other secrets in the cloud by using hardware security modules (HSMs). Protect
+    cryptographic keys and small secrets like passwords with keys stored in HSMs.
+    For added assurance, import or generate your keys in HSMs that are certified to
+    FIPS 140-2 level 2 and Common Criteria EAL4+ standards, so that your keys stay
+    within the HSM boundary. Key Vault is designed so that Microsoft does not see
+    or extract your keys. Create new keys for Dev-Test in minutes and migrate seamlessly
+    to production keys managed by security operations. Key Vault scales to meet the
+    demands of your cloud applications without the hassle required to provision, deploy,
+    and manage HSMs and key management software.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-enhance-data-protection.png
+  humanURL: https://azure.microsoft.com/en-us/services/key-vault/
+  baseURL: ://management.azure.com//
+  tags: Azure Key Vault
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-key-vault/master/_listings/azure-key-vault/openapi.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/key-vault/
