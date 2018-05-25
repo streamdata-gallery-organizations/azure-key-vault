@@ -21,7 +21,7 @@ paths:
       summary: Vaults Create Or Update
       description: Create or update a key vault in the specified subscription.
       operationId: Vaults_CreateOrUpdate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftkeyvaultvaultsvaultname-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-keyvaultvaultsvaultname-put
       parameters:
       - in: query
         name: No Name
@@ -45,7 +45,7 @@ paths:
       summary: Vaults Delete
       description: Deletes the specified Azure key vault.
       operationId: Vaults_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftkeyvaultvaultsvaultname-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-keyvaultvaultsvaultname-delete
       parameters:
       - in: query
         name: No Name
@@ -64,7 +64,7 @@ paths:
       summary: Vaults Get
       description: Gets the specified Azure key vault.
       operationId: Vaults_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftkeyvaultvaultsvaultname-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-keyvaultvaultsvaultname-get
       parameters:
       - in: query
         name: No Name
@@ -85,7 +85,7 @@ paths:
       description: The List operation gets information about the vaults associated
         with the subscription and within the specified resource group.
       operationId: Vaults_ListByResourceGroup
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftkeyvaultvaults-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-keyvaultvaults-get
       parameters:
       - in: query
         name: $top

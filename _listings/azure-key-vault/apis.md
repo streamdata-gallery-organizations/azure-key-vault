@@ -15,8 +15,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: ""
 tags: Azure Key Vault
-created: "2018-05-21"
-modified: "2018-05-21"
+created: "2018-05-24"
+modified: "2018-05-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-key-vault/master/_listings/azure-key-vault/apis.md
 specificationVersion: "0.14"
 apis:
@@ -29,7 +29,7 @@ apis:
   tags: Vaults
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-key-vault/master/_listings/azure-key-vault/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftkeyvaultvaultsvaultname-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-key-vault/master/_listings/azure-key-vault/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-keyvaultvaultsvaultname-put-openapi.md
 - name: Azure Key Vault API Vaults Delete
   x-api-slug: azure-key-vault-api
   description: Deletes the specified Azure key vault.
@@ -39,9 +39,9 @@ apis:
   tags: Vaults
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-key-vault/master/_listings/azure-key-vault/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftkeyvaultvaultsvaultname-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-key-vault/master/_listings/azure-key-vault/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-keyvaultvaultsvaultname-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-key-vault/master/_listings/azure-key-vault/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftkeyvaultvaultsvaultname-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-key-vault/master/_listings/azure-key-vault/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-keyvaultvaultsvaultname-delete-openapi.md
 - name: Azure Key Vault API Vaults Get
   x-api-slug: azure-key-vault-api
   description: Gets the specified Azure key vault.
@@ -51,9 +51,9 @@ apis:
   tags: Vaults
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-key-vault/master/_listings/azure-key-vault/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftkeyvaultvaultsvaultname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-key-vault/master/_listings/azure-key-vault/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-keyvaultvaultsvaultname-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-key-vault/master/_listings/azure-key-vault/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftkeyvaultvaultsvaultname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-key-vault/master/_listings/azure-key-vault/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-keyvaultvaultsvaultname-get-openapi.md
 - name: Azure Key Vault API Vaults List By Resource Group
   x-api-slug: azure-key-vault-api
   description: The List operation gets information about the vaults associated with
@@ -64,9 +64,9 @@ apis:
   tags: Vaults Resource Group
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-key-vault/master/_listings/azure-key-vault/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftkeyvaultvaults-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-key-vault/master/_listings/azure-key-vault/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-keyvaultvaults-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-key-vault/master/_listings/azure-key-vault/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftkeyvaultvaults-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-key-vault/master/_listings/azure-key-vault/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-keyvaultvaults-get-openapi.md
 - name: Azure Key Vault API Vaults List
   x-api-slug: azure-key-vault-api
   description: The List operation gets information about the vaults associated with

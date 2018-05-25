@@ -1,10 +1,10 @@
 ---
 swagger: "2.0"
 x-collection-name: Azure Key Vault
-x-complete: 1
+x-complete: 0
 info:
-  title: KeyVaultManagementClient
-  description: the-azure-management-api-provides-a-restful-set-of-web-services-that-interact-with-azure-key-vault-
+  title: Azure Key Vault API Vaults Get
+  description: Gets the specified Azure key vault.
   version: 1.0.0
 host: management.azure.com
 basePath: /
@@ -78,49 +78,17 @@ paths:
           description: OK
       tags:
       - Vaults
-  /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.KeyVault/vaults:
-    get:
-      summary: Vaults List By Resource Group
-      description: The List operation gets information about the vaults associated
-        with the subscription and within the specified resource group.
-      operationId: Vaults_ListByResourceGroup
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-keyvaultvaults-get
-      parameters:
-      - in: query
-        name: $top
-        description: Maximum number of results to return
-      - in: query
-        name: No Name
-      - in: path
-        name: resourceGroupName
-        description: The name of the Resource Group to which the vault belongs
-      responses:
-        200:
-          description: OK
-      tags:
-      - Vaults Resource Group
-  /subscriptions/{subscriptionId}/resources:
-    get:
-      summary: Vaults List
-      description: The List operation gets information about the vaults associated
-        with the subscription.
-      operationId: Vaults_List
-      x-api-path-slug: subscriptionssubscriptionidresources-get
-      parameters:
-      - in: query
-        name: $filter
-        description: The filter to apply on the operation
-      - in: query
-        name: $top
-        description: Maximum number of results to return
-      - in: query
-        name: api-version
-        description: Azure Resource Manager Api Version
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Vaults
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
 ---
