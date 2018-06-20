@@ -13,10 +13,10 @@ description: Azure Key Vault offers an easy, cost-effective way to safeguard key
   HSMs and key management software.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-enhance-data-protection.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Azure Key Vault
-created: "2018-05-24"
-modified: "2018-05-24"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-key-vault/master/_listings/azure-key-vault/apis.md
 specificationVersion: "0.14"
 apis:
