@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Azure Key Vault
 x-complete: 1
@@ -123,4 +122,3 @@ paths:
           description: OK
       tags:
       - Vaults
----
